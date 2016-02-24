@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gx303.dbflowdemo.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="插入数据到A表"
+            android:id="@+id/button"
+            android:onClick="insert_A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询A表全部数据"
+            android:id="@+id/button2"
+            android:onClick="select_A_all" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询A表部分数据"
+            android:id="@+id/button3"
+            android:onClick="select_A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="插入数据到C表"
+            android:id="@+id/button4"
+            android:onClick="insert_C" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询C表内容"
+            android:id="@+id/button5"
+            android:onClick="select_C" />
+    </LinearLayout>
+</RelativeLayout>
